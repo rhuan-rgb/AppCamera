@@ -5,7 +5,7 @@ const api = axios.create({
     headers:{
         accept: "application/json",
         "Content-Type" : "application/json",
-        "X-AIO-Key" : "aio_uzbx33WD5rJqaYjym3NRqHR8CFwF"
+        "X-AIO-Key" : ""
     },
 });
 
