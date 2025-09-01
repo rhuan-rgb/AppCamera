@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://io.adafruit.com/api/v2/Rhuan_IOT/feeds/",
+    baseURL: "",
     headers:{
         accept: "application/json",
         "Content-Type" : "application/json",
@@ -10,7 +10,7 @@ const api = axios.create({
 });
 
 const sheets = {
-    toggleLED: (stateLED) => api.post("botao-led/data", stateLED),
+    toggleLED: (stateLED) => api.post("", stateLED),
 };
 
 export default sheets;
